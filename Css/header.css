@@ -1,0 +1,49 @@
+.container-fluid{
+    padding: 0;
+}
+.header{
+    padding: .5rem 0;
+    width: 100%;
+    /* background: linear-gradient(to right, #ff6e7f, #bfe9ff);  */
+    background: white;
+}
+.header .row{
+    display: flex;
+    margin: 0;
+}
+.header .sign-header a,.header .open{
+    box-shadow: 0 .3rem 0px #c30012;
+    border-radius: .5rem;
+}
+.header .dropdown-toggle {
+    box-shadow: 0 .3rem  rgb(4, 80, 20);
+    border-radius: .5rem;
+
+}
+.header .row .header-sign{
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.header .row a:first-child{
+    margin-right: .5rem;
+}
+.header .header-sign i{
+    margin-right: .5rem;
+}
+/* change ngon ngu */
+.header .header-sign .sign-header{
+    margin-left: .5rem;
+}
+.header .row .dropdown-item img{
+    margin-right: .8rem;
+}
+.header .dropdown-menu button{
+    transition: .4s;
+}
+.header .dropdown-menu button:hover{
+    color: #c30012;
+}
+.dropdown-item {
+    padding: .25rem 1rem;
+}

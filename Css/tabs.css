@@ -1,0 +1,87 @@
+.tab-content{
+    padding: 1rem;
+}
+.tab-content h2{
+    color: green;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-tabs .nav-link.active {
+    color: white;
+    background-color: green;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+/* /list info */
+.info-list{
+    width: 100%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    display: inline-flex;
+}
+.tab-content .info-list .new-thumail {
+    overflow: hidden;
+    min-height: 150px;
+    width: 200px;
+    float: left;
+    position: relative;
+}
+.info-list .new-thumail img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.info-list img{
+    max-width: 100%;
+    height: auto;
+}
+.info-list .new-thumail .icon {
+    position: absolute;
+    background: #ff6600;
+    color: #fff;
+    left: -34px;
+    top: -15px;
+    padding: 20px 30px 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform: rotate(-45deg);
+    box-shadow: 0 1px 5px #000;
+    border-radius: 0;
+}
+/* */
+/* content */
+.info-list .new-info {
+    background: #fff9f3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: calc(100% - 165px);
+    float: left;
+    padding-left: 15px;
+}
+.info-list .new-info h3 {
+    font-size: 1rem;
+    padding-right: 30px;
+    /* max-height: 150px; */
+    overflow: hidden;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.info-list .new-info h3 a{
+    color: #CC0000;
+
+}
+.info-list  .new-info .rom-detail {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -5px;
+}
+.info-list .rom-detail .rom-detail-item{
+    float: right;
+}

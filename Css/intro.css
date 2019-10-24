@@ -1,0 +1,32 @@
+.intro{
+    width: 100%;
+    height: auto;
+}
+.intro h2{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    margin: 2rem auto;
+}
+.search-list{
+    background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae); 
+}
+.form-search{
+    padding: 1.2rem 1.6rem;
+}
+ h2{
+     font-size: 2rem;
+    color: green;
+    font-weight: bold;
+}
+.search-tt{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.search-tt i{
+    margin-right: .5rem;
+}

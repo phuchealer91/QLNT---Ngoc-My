@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="Css/owl.carousel.min.css">
+  <link rel="stylesheet" href="Css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="Css/owlss.css">
+  <link rel="stylesheet" href="Css/header.css">
+  <link rel="stylesheet" href="Css/intro.css">
+  <link rel="stylesheet" href="Css/menu.css">
+  <link rel="stylesheet" href="Css/tabs.css">
+  <link rel="stylesheet" href="Css/footer.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script type="text/javascript" src="Js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="Js/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script type="text/javascript" src="Js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="Js/owlsss.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dream House</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 header-sign">
+          <div class="dropdown">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">Language</button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item"><img src="image/vi.png" alt="" width="32px" height="32px">Vietnamese</a>
+                <a href="#" class="dropdown-item"><img src="image/en.png" alt="" width="32px" height="32px">English</a>
+              </div>
+            </div>
+        <div class="sign-header">
+          <a class="btn btn-danger" href="#" role="button"><i class="fa fa-user-plus"></i>Đăng Kí</a>
+          <a class="btn btn-danger" href="#" role="button"><i class="fa fa-sign-in"></i>Đăng Nhập</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  Menu -->
+  <div id="logo"><img src="image/logo.png" alt="" width="350px"></div>
+  <div class="container-fuild">
+    <nav>
+      <label for="drop" class="toggle">Dream House</label>
+      <input type="checkbox" id="drop" />
+      <ul class="menu">
+        <li><a href="#">Trang Chủ</a></li>
+        <li>
+          <!-- First Tier Drop Down -->
+          <label for="drop-1" class="toggle">Tin Cho Thuê +</label>
+          <a href="#">Tin Cho Thuê</a>
+          <input type="checkbox" id="drop-1" />
+          <ul>
+            <li><a href="#">Nhà Trọ</a></li>
+            <li><a href="#">Nhà Cho Thuê</a></li>
+            <li><a href="#">Khách Sạn Nhà Nghỉ</a></li>
+          </ul>
+
+        </li>
+        <li>
+
+          <!-- First Tier Drop Down -->
+          <label for="drop-2" class="toggle">Tin Rao Vặt +</label>
+          <a href="#">Tin Rao Vặt</a>
+          <input type="checkbox" id="drop-2" />
+          <ul>
+            <li><a href="#">Chuyển Nhượng</a></li>
+            <li><a href="#">Sim Số Đẹp</a></li>
+            <li>
+              <!-- Second Tier Drop Down -->
+              <label for="drop-3" class="toggle">Thời Trang +</label>
+              <!-- <a href="#">Thời Trang</a> -->
+              <input type="checkbox" id="drop-3" />
+
+              <ul>
+                <li><a href="#">Thu Đông</a></li>
+                <li><a href="#">Đông Thu</a></li>
+                <li><a href="#">Hạ Thu</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">Giới Thiệu</a></li>
+        <li><a href="#">Liên Hệ</a></li>
+        <li><a href="#">Bảng Giá</a></li>
+        <li><a class="btn btn-danger update-news" href="#" role="button"><i class="fa fa-pencil-square-o"></i>Đăng
+            Tin</a> </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="intro">
+      <h2>Website cho thuê phòng trọ, nhà trọ số 1 Việt Nam</h2>
+      <p>
+        Cho thuê phòng trọ, nhà trọ số 1 Việt Nam - Website đăng tin cho thuê phòng trọ, tìm phòng trọ nhanh, hiệu quả
+        với hơn 90.000+ tin đăng và hơn 2.000.000 lượt xem mỗi tháng. cho thuê phòng trọ, nhà trọ, thuê nhà nguyên căn,
+        cho thuê căn hộ, tìm người ở ghép... Vì vậy tin của bạn đăng trên website sẽ tiếp cận với nhiều khách hàng hơn,
+        do đó giao dịch nhanh hơn, tiết kiệm chi phí hơn.
+      </p>
+    </div>
+  </div>
+  <div class="container-fuild">
+    <div class="search-list">
+      <form class="form-search" novalidate>
+        <h2>Tìm Kiếm Nhanh</h2>
+        <div class="form-row">
+          <div class="form-group col-md-2">
+            <label for="inputState">Loại Tin</label>
+            <select id="inputState" class="form-control">
+              <option selected>Nhà Trọ</option>
+              <option>Nhà Cho Thuê</option>
+              <option>Khách Sạn Nhà Nghỉ</option>
+              <option>Văn Phòng Cho Thuê</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputState">Tỉnh Thành</label>
+            <select id="inputState" class="form-control">
+              <option selected>Ninh Kiều</option>
+              <option>Bình Thủy</option>
+              <option>Cái Răng</option>
+              <option>Ô Môn</option>
+              <option>Thốt Nốt</option>
+              <option>Phong Điền</option>
+              <option>Cờ Đỏ</option>
+              <option>Thới Lai</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputState">Loại Tiền</label>
+            <select id="inputState" class="form-control">
+              <option selected>VND</option>
+              <option>USD</option>
+              <option>UERO</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputState">Mức Giá</label>
+            <select id="inputState" class="form-control">
+              <option selected>Dưới 1 triệu</option>
+              <option>1 triệu - 2 triệu</option>
+              <option>2 triệu - 3 triệu</option>
+              <option>3 triệu - 5 triệu</option>
+              <option>5 triệu - 7 triệu</option>
+              <option>7 triệu - 10 triệu</option>
+              <option>10 triệu - 15 triệu</option>
+              <option>Trên 15 triệu</option>
+            </select>
+          </div>
+          <div class="form-group col-md-3 search-tt">
+            <a class="btn btn-primary" href="#" role="button"><i class="fa fa-search"></i>Tìm Ngay</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="container-fuild px-3">
+    <h2>Một Số Khu Vực Nhà Trọ</h2>
+    <div class="owl-carousel owl-theme">
+      <div class="item"><img src="image/bg1.jpg" alt="">Khu vực bình thủy - 23 mét vuông</div>
+      <div class="item"><img src="image/bg2.jpg" alt="">Khu vực ninh kiều - 20 mét vuông</div>
+      <div class="item"><img src="image/bg3.jpg" alt="">Khu vực cái răng - 15 mét vuông</div>
+      <div class="item"><img src="image/bg4.jpg" alt="">Khu vực ninh kiều - 23 mét vuông</div>
+      <div class="item"><img src="image/bg5.jpg" alt="">Khu vực cái răng - 30 mét vuông</div>
+
+    </div>
+  </div>
+  <div class="container-fuild mx-3">
+    <h2>Thông Tin Chi Tiết Nhà Trọ</h2>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+          aria-selected="true">Nhà Trọ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+          aria-selected="false">Nhà Cho Thuê</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+          aria-selected="false">Khách Sạn Nhà Nghỉ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="vp-tab" data-toggle="tab" href="#vp" role="tab" aria-controls="vp"
+          aria-selected="false">Văn Phòng Cho Thuê</a>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg1.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực bình thủy - 23 mét vuông </a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Bình Thủy</b>
+                <span>Diện Tích: <b>23m<sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 800.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg2.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực ninh kiều - 20 mét vuông</a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Ninh Kiều</b>
+                <span>Diện Tích: <b>20m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 900.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg3.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực cái răng - 15 mét vuông</a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Cái Răng</b>
+                <span>Diện Tích: <b>15m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 1.100.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg4.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực ninh kiều - 23 mét vuông</a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Ninh Kiều</b>
+                <span>Diện Tích: <b>23m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 1.200.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg5.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực cái răng - 30 mét vuông </a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Cái Răng</b>
+                <span>Diện Tích: <b>30m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 1.500.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg2.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực ninh kiều - 20 mét vuông</a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Ninh Kiều</b>
+                <span>Diện Tích: <b>20m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 900.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg3.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực cái răng - 15 mét vuông</a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Cái Răng</b>
+                <span>Diện Tích: <b>15m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 1.100.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg4.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực ninh kiều - 23 mét vuông</a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Ninh Kiều</b>
+                <span>Diện Tích: <b>23m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 1.200.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg5.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực cái răng - 30 mét vuông </a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Cái Răng</b>
+                <span>Diện Tích: <b>30m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 1.500.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg4.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực ninh kiều - 23 mét vuông</a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Ninh Kiều</b>
+                <span>Diện Tích: <b>23m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 1.200.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg5.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực cái răng - 30 mét vuông </a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Cái Răng</b>
+                <span>Diện Tích: <b>30m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 1.500.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="vp" role="tabpanel" aria-labelledby="vp-tab">
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg3.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực cái răng - 15 mét vuông</a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Cái Răng</b>
+                <span>Diện Tích: <b>15m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 1.100.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+        <div class="info-list">
+          <div class="new-thumail">
+            <a href=""><img src="image/bg4.jpg" alt=""></a>
+            <div class="icon">VIP</div>
+          </div>
+          <div class="new-info">
+            <h3><a href="">Cho thuê phòng trọ khu vực ninh kiều - 23 mét vuông</a></h3>
+            <div class="rom-detail">
+              <div class="location">Khu Vực : <b>Ninh Kiều</b>
+                <span>Diện Tích: <b>23m <sup>2</sup></b></span>
+                <div class="rom-detail-item">
+                  <span class="time">25/10/2019</span>
+                </div>
+              </div>
+            </div>
+            <div class="price"><a href="" class="btn btn-success">Giá: 1.200.000/<b>Tháng</b></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3><span>DREAM HOUSE</span></h3>
+
+      <p class="footer-links">
+        <a href="/WebBanLinhKien" class="link-1">Trang Chủ</a>
+
+        <a href="product.php">Nhà Trọ</a>
+
+        <a href="introduce.php">Bảng Giá</a>
+
+        <a href="contact.php">Liên Hệ</a>
+      </p>
+
+      <p class="footer-company-name">Company Name © 2019</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span> 209 Đường Ba Tháng Hai </span>Q.Ninh Kiều, Cần Thơ</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+84 0966 197 405</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="#">dreamhouse@teach.vn</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>About the company</span>
+        Cho thuê phòng trọ, nhà trọ số 1 Việt Nam, Website đăng tin cho thuê phòng trọ, tìm phòng trọ nhanh, hiệu quả
+        với hơn 90.000+ tin đăng và hơn 2.000.000 lượt xem mỗi tháng. <br>Cảm on mọi người ghé thăm !
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a>
+
+      </div>
+    </div>
+  </footer>
+  <script>
+      $(document).on('click', '.dropdown-item', function(event) {
+  event.preventDefault();
+  $(this).toggleClass('dropdown-item-checked');  
+});
+
+  </script>
+</body>
+
+</html>
